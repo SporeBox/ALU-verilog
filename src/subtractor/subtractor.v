@@ -3,9 +3,9 @@
 module subtractor #(
     parameter WIDTH = 8
 )(
-    input  [WIDTH-1:0] a,
-    input  [7:0]       b,          
-    input              en,
+    input [WIDTH-1:0] a,
+    input [7:0] b,          
+    input en,
     output [WIDTH:0]   o        
 );
     wire [7:0] b_inv;
