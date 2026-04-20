@@ -3,7 +3,7 @@
 module subtractor #(
     parameter WIDTH = 8
 )(
-    input   [WIDTH-1:0] a,
+    input [WIDTH-1:0] a,
     input [7:0] b,          
     input en,
     output [WIDTH:0] o        
