@@ -6,7 +6,7 @@ module subtractor #(
     input [WIDTH-1:0] a,
     input [7:0] b,          
     input en,
-    output [WIDTH:0]   o        
+    output [WIDTH:0] o        
 );
     wire [7:0] b_inv;
     
